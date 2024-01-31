@@ -711,6 +711,10 @@ video {
   width: 90%;
 }
 
+.w-\[\]{
+  width: ;
+}
+
 .max-w-\[1440px\]{
   max-width: 1440px;
 }
