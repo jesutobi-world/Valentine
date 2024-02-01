@@ -8,6 +8,7 @@ function showModal(imageNumber){
 
 window.onclick = function(event) {
     if (event.target == modal) {
-      modal.style.display = "none";
+        card.classList.add('hidden');
+        modal.classList.add('hidden');
     }
 }
