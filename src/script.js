@@ -14,5 +14,5 @@ function showModal(imageNumber) {
 close.onclick = function(event) {
         modal.classList.add('hidden');
         card.classList.add('hidden');
-        body.classList.remove('overflow-hiden');
+        body.classList.remove('overflow-hidden');
 };
