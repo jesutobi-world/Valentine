@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         'sans': ['"Space Grotesk"', 'sans-serif'],
       },
+      backgroundImage: {
+        'slide': "url('./images/slide-bg-4.jpg')",
+      },
       keyframes: {
         heart: {
           '0%': { transform: 'rotate(0.0deg)' },
