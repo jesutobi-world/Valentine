@@ -570,6 +570,22 @@ video {
   top: 90px;
 }
 
+.top-\[100px\]{
+  top: 100px;
+}
+
+.right-\[100px\]{
+  right: 100px;
+}
+
+.right-\[30px\]{
+  right: 30px;
+}
+
+.top-\[30px\]{
+  top: 30px;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -747,6 +763,10 @@ video {
   height: 100vh;
 }
 
+.h-\[50px\]{
+  height: 50px;
+}
+
 .w-\[100\%\]{
   width: 100%;
 }
@@ -773,6 +793,10 @@ video {
 
 .w-screen{
   width: 100vw;
+}
+
+.w-\[50px\]{
+  width: 50px;
 }
 
 .max-w-\[1440px\]{
@@ -815,6 +839,10 @@ video {
 
 .animate-rotating-heart{
   animation: heart 2s linear infinite;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .grid-flow-col{
@@ -875,6 +903,10 @@ video {
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .border-\[3px\]{
@@ -1037,6 +1069,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .opacity-60{

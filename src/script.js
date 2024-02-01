@@ -1,5 +1,6 @@
 let modal;
 let card;
+let close = document.getElementById('close');
 
 function showModal(imageNumber) {
     card = document.getElementById(`card${imageNumber}`);
@@ -8,9 +9,7 @@ function showModal(imageNumber) {
     card.classList.remove('hidden');
 }
 
-window.onclick = function(event) {
-    if (event.target == modal) {
+close.onclick = function(event) {
         modal.classList.add('hidden');
         card.classList.add('hidden');
-    }
 };
